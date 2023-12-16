@@ -1,0 +1,43 @@
+body {
+  background: rgb(236, 232, 232);
+}
+
+#hero-section{
+  min-width: 100vw;
+  min-height: 90vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 5.03rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+main {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 8rem;
+}
+
+main section {
+  width: 60%;
+  margin: auto;
+}
+
+#articles-section {
+  position: relative;
+  top: 60px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.137);
+}
+
+h2 {
+  font-family: Teko;
+  font-size: 8rem;
+}
+
+p {
+  margin-bottom: 2.3rem;
+  font-size: 2rem;
+}
